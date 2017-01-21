@@ -1,0 +1,10 @@
+version: '2'
+services:
+  postgres:
+    image: mdillon/postgis
+    environment:
+    - POSTGRES_DB=intent
+    - POSTGRES_USER=intent
+    - POSTGRES_PASSWORD=intent
+    ports:
+    - "5432:5432"
