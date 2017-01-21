@@ -14,6 +14,8 @@ class CustomUserAdmin(UserAdmin):
 
     save_on_top = True
 
+    change_form_template = 'loginas/change_form.html'
+
     list_display = (
         'email',
         'username',

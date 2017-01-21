@@ -22,6 +22,7 @@ INSTALLED_APPS = [
     'django_extensions',
 
     'core',
+    'loginas',
 ]
 
 MIDDLEWARE = [

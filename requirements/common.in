@@ -4,3 +4,4 @@ django-extensions
 factory-boy
 pytz
 tblib
+django-loginas

@@ -6,6 +6,7 @@
 #
 decorator==4.0.11         # via ipython, traitlets
 django-extensions==1.7.5
+django-loginas==0.3.0
 django==1.10.5
 factory-boy==2.8.1
 faker==0.7.7              # via factory-boy
