@@ -1,15 +1,16 @@
 from django.contrib import admin
+from django.contrib.auth.admin import UserAdmin
 from django.utils.translation import ugettext_lazy as _
 
-from core.models import User
+from .models import User
 
 
 @admin.register(User)
-class UserAdmin(admin.ModelAdmin):
+class CustomUserAdmin(UserAdmin):
     """A custom user admin class"""
     filter_horizontal = ('groups', 'user_permissions')
 
-    readonly_fields = ('password', 'last_login', 'date_joined')
+    readonly_fields = ('last_login', 'date_joined')
 
     list_display = (
         'email',
@@ -55,6 +56,19 @@ class UserAdmin(admin.ModelAdmin):
                     'password',
                     'last_login',
                     'date_joined',
+                )
+            }
+        ),
+    )
+
+    add_fieldsets = (
+        (
+            None, {
+                'fields': (
+                    'email',
+                    'username',
+                    'password1',
+                    'password2'
                 )
             }
         ),
