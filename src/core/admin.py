@@ -12,6 +12,8 @@ class CustomUserAdmin(UserAdmin):
 
     readonly_fields = ('last_login', 'date_joined')
 
+    save_on_top = True
+
     list_display = (
         'email',
         'username',
