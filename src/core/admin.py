@@ -11,6 +11,16 @@ class UserAdmin(admin.ModelAdmin):
 
     readonly_fields = ('password', 'last_login', 'date_joined')
 
+    list_display = (
+        'email',
+        'username',
+        'is_active',
+        'is_staff',
+        'is_superuser',
+        'last_login',
+        'date_joined'
+    )
+
     fieldsets = (
         (
             _('General information'), {
