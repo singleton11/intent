@@ -7,4 +7,4 @@ services:
     - POSTGRES_USER=intent
     - POSTGRES_PASSWORD=intent
     ports:
-    - "5432:5432"
+    - '5432:5432'
