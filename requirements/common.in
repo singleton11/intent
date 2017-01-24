@@ -1,7 +1,0 @@
-django
-psycopg2
-django-extensions
-factory-boy
-pytz
-tblib
-django-loginas

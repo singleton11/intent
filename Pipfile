@@ -1,0 +1,15 @@
+[[source]]
+url = "https://pypi.org/"
+verify_ssl = true
+
+[packages]
+django-extensions = "*"
+django = "*"
+factory-boy = "*"
+django-loginas = "*"
+psycopg2 = "*"
+tblib = "*"
+pytz = "*"
+
+[dev-packages]
+ipython = "*"
