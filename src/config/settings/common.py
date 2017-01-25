@@ -23,6 +23,8 @@ INSTALLED_APPS = [
 
     'core',
     'loginas',
+
+    'apps.projects',
 ]
 
 MIDDLEWARE = [
