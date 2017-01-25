@@ -21,6 +21,8 @@ INSTALLED_APPS = [
 
     'django_extensions',
 
+    'rest_framework',
+
     'core',
     'loginas',
 
