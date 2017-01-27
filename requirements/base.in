@@ -3,5 +3,6 @@ django_extensions
 django_loginas
 djangorestframework
 djangorestframework-jsonapi
+django-cors-headers
 
 psycopg2

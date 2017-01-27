@@ -6,6 +6,7 @@
 #
 appdirs==1.4.0            # via setuptools
 decorator==4.0.11         # via ipython, traitlets
+django-cors-headers==2.0.0
 django-extensions==1.7.6
 django-loginas==0.3.0
 django==1.10.5
