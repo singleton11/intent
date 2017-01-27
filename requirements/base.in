@@ -2,5 +2,6 @@ django
 django_extensions
 django_loginas
 djangorestframework
+djangorestframework-jsonapi
 
 psycopg2
