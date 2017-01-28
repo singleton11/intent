@@ -4,7 +4,9 @@ from django_extensions.db.models import TimeStampedModel, TitleDescriptionModel
 
 class Project(TitleDescriptionModel, TimeStampedModel):
     """Project model"""
-    pass
+
+    class JSONAPIMeta:
+        resource_name = 'projects'
 
 
 class Task(TitleDescriptionModel, TimeStampedModel):
