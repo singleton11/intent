@@ -1,0 +1,14 @@
+[[source]]
+verify_ssl = true
+url = "https://pypi.python.org/simple"
+
+[dev-packages]
+ipython = "*"
+
+[packages]
+django = "*"
+django-extensions = "*"
+django-loginas = "*"
+djangorestframework = "*"
+djangorestframework-jsonapi = "*"
+psycopg2 = "*"
