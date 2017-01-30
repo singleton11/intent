@@ -7,7 +7,6 @@ django = "*"
 django-extensions = "*"
 django-loginas = "*"
 djangorestframework = "*"
-djangorestframework-jsonapi = "*"
 psycopg2 = "*"
 django-rest-auth = "*"
 
